@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+            "id": 1001,
+            "name": "Wallace",
+            "username": "wallace",
+            "password": "hash123",
+            "email": "wallace@domain.com",
+            "permissions": [
+                {
+                    "path": "invoices"
+                },
+                {
+                    "path": "contracts"
+                }
+            ]
+        },
+        {
+            "id": 1002,
+            "name": "Frota",
+            "username": "frota",
+            "password": "hash123",
+            "email": "frota@domain.com",
+            "permissions": [
+                {
+                    "path": "list-customers"
+                }
+            ]
+        }
+    ]
+}
